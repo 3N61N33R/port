@@ -28,6 +28,11 @@
   </head>
   <body>
 
+    <!-- We need to hide this form, because it doesn't need to be seen by the user, just Netlify. 
+    We'll give it the attribute of hidden as well as a name attribute that matches the JSX form in Contact.js.
+    We also need to give it the netlify attribute so that Netlify Forms recognizes it. 
+    Finally, we need to include all of the same inputs as our JSX form: for name, email, message. -->
+
   <form name="test" netlify netlify-honeypot="bot-field" hidden>
     <input type="text" name="name" />
     <input type="email" name="email" />
