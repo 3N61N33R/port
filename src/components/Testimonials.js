@@ -22,14 +22,14 @@ export default function Testimonials() {
                     src={testimonial.image}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   /> */}
-                  {/* <span className="flex-grow flex flex-col pl-4">
+                  <span className="flex-grow flex flex-col pl-4">
                     <span className="title-font font-medium text-white">
                       {testimonial.name}
                     </span>
                     <span className="text-gray-500 text-sm uppercase">
                       {testimonial.company}
                     </span>
-                  </span> */}
+                  </span>
                 </div>
               </div>
             </div>
